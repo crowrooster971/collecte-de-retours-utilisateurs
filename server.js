@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/', (req, res) => {
-  res.send('Bienvenue sur l’application de collecte de retours utilisateurs !');
+  res.send('Bienvenue sur l\'application de collecte de retours utilisateurs !');
 });
 
 app.listen(port, () => {
