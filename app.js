@@ -11,8 +11,8 @@ app.use(bodyParser.json());
 const dbUrl = process.env.MONGODB_URI || 'mongodb://localhost:27017/retours';
 
 mongoose.connect(dbUrl, { useNewUrlParser: true, useUnifiedTopology: true })
-  .then(() => console.log('Connecté à la base de données MongoDB'))
-  .catch(err => console.error('Erreur de connexion à la base de données', err));
+  .then(() => console.log('Connected to MongoDB database'))
+  .catch(err => console.error('Database connection error', err));
 
 app.use('/api/retours', retoursRoutes);
 
