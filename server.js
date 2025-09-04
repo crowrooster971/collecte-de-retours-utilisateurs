@@ -9,9 +9,9 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/', (req, res) => {
-  res.send('Bienvenue sur l\'application de collecte de retours utilisateurs !');
+  res.send('Welcome to the user feedback collection application!');
 });
 
 app.listen(port, () => {
-  console.log(`Serveur écoutant sur http://localhost:${port}`);
+  console.log(`Server listening at http://localhost:${port}`);
 });
