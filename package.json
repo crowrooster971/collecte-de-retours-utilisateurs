@@ -1,6 +1,6 @@
 {
   "name": "collecte-de-retours-utilisateurs",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Application pour recueillir des retours utilisateurs.",
   "main": "index.js",
   "scripts": {
